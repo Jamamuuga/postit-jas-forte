@@ -1,0 +1,266 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"user",
+				"user_groups"
+			],
+			[
+				"rout",
+				"routes"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 332.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pvr",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"themr",
+				"Themr: List themes"
+			],
+			[
+				"them",
+				"Themr: List themes"
+			],
+			[
+				"the",
+				"Themr: List themes"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 279.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"cd /home"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte"
+	],
+	"file_history":
+	[
+		"/home/jason/Dropbox/Documents/Projeto/myapp/app/models/group.rb",
+		"/home/jason/Dropbox/Documents/Projeto/myapp/app/models/user.rb",
+		"/home/jason/Dropbox/Documents/Projeto/myapp/db/migrate/20141010192223_create_groups.rb",
+		"/home/jason/.config/sublime-text-3/Packages/User/SyntaxMgr.sublime-settings",
+		"/home/jason/Dropbox/Documents/Projeto/myapp/app/controllers/users_controller.rb",
+		"/home/jason/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+		"/home/jason/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+		"/home/jason/.config/sublime-text-3/Packages/Theme - Soda SolarizedDark/Soda SolarizedDark.sublime-theme",
+		"/home/jason/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/jason/.config/sublime-text-3/Packages/Neon Color Scheme/Neon.tmTheme",
+		"/home/jason/.config/sublime-text-3/Packages/Theme - Soda/Soda Dark 3.sublime-theme",
+		"/home/jason/.config/sublime-text-3/Packages/User/Monokai Bright (SL).tmTheme",
+		"/home/jason/Dropbox/Documents/Projeto/myapp/app/models/post.rb",
+		"/home/jason/Dropbox/Documents/Projeto/myapp/app/controllers/posts_controller.rb",
+		"/home/jason/Dropbox/Documents/Projeto/myapp/db/migrate/20140927234446_create_users.rb",
+		"/home/jason/Dropbox/Documents/Projeto/myapp/db/migrate/20140928011913_create_posts.rb",
+		"/home/jason/.config/sublime-text-3/Packages/User/BeautifyRuby.sublime-settings",
+		"/home/jason/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/jason/Dropbox/Documents/Projeto/myapp/Gemfile.lock",
+		"/home/jason/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/jason/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/jason/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/jason/.config/sublime-text-3/Packages/BeautifyRuby/BeautifyRuby.sublime-settings",
+		"/home/jason/Dropbox/Documents/Projeto/myapp/myapp.sublime-project",
+		"/home/jason/Dropbox/Documents/Projeto/myapp/config/database.yml",
+		"/home/jason/Dropbox/Documents/Projeto/myapp/Rakefile",
+		"/home/jason/Dropbox/Documents/Projeto/blog/app/controllers/comments_controller.rb",
+		"/home/jason/Dropbox/Documents/Projeto/blog/app/controllers/articles_controller.rb",
+		"/home/jason/Dropbox/Documents/Projeto/blog/app/models/article.rb",
+		"/home/jason/Dropbox/Documents/Projeto/blog/app/views/comments/_comment.html.erb",
+		"/home/jason/Dropbox/Documents/Projeto/blog/app/views/articles/show.html.erb",
+		"/home/jason/Dropbox/Documents/Projeto/blog/app/views/comments/_form.html.erb",
+		"/home/jason/Dropbox/Documents/Projeto/blog/app/views/articles/_comment.html.erb",
+		"/home/jason/Dropbox/Documents/Projeto/blog/config/routes.rb",
+		"/home/jason/Dropbox/Documents/Projeto/blog/app/views/articles/index.html.erb",
+		"/home/jason/Dropbox/Documents/Projeto/blog/app/views/articles/edit.html.erb",
+		"/home/jason/Dropbox/Documents/Projeto/blog/app/views/articles/new.html.erb",
+		"/home/jason/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/jason/.config/sublime-text-3/Packages/User/QuickThemes.sublime-settings",
+		"/home/jason/.config/sublime-text-3/Packages/Theme - Default/Default.sublimetheme",
+		"/home/jason/.config/sublime-text-3/Packages/QuickThemes/QuickThemes.sublime-settings",
+		"/home/jason/.config/sublime-text-3/Packages/QuickThemes/Default (Linux).sublime-keymap",
+		"/home/jason/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/jason/Dropbox/Documents/Projeto/blog/app/views/articles/form.html.erb",
+		"/home/jason/Dropbox/Documents/Projeto/blog/app/controllers/articles_controller (jason-VirtualBox's conflicted copy 2014-05-18).rb",
+		"/home/jason/Dropbox/Documents/Projeto/blog/app/views/welcome/index.html.erb",
+		"/home/jason/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/home/jason/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/home/jason/.config/sublime-text-3/Packages/CTags/CTags.sublime-settings",
+		"/home/jason/.config/sublime-text-3/Packages/User/CTags.sublime-settings",
+		"/home/jason/Dropbox/Documents/Projeto/blog/.gitignore",
+		"/home/jason/.gitignore_global",
+		"/home/jason/Dropbox/Documents/Projeto/blog/extra_tag_files",
+		"/home/jason/Dropbox/Documents/Projeto/blog/[.gemtags,",
+		"/home/jason/Dropbox/Documents/Projeto/blog/tags,",
+		"/home/jason/Dropbox/Documents/Projeto/blog/.tags]",
+		"/home/jason/Downloads/Consola/Bash/Complemento/rake-completion-master/debian/rules",
+		"/home/jason/Downloads/Consola/Bash/Complemento/rake-completion-master/README.md",
+		"/home/jason/Downloads/Consola/Bash/Complemento/rails_completion-master/rails.bash",
+		"/home/jason/Dropbox/Documents/Projeto/blog/Gemfile",
+		"/home/jason/Dropbox/Documents/Projeto/blog/config/boot.rb"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bar",
+			"font",
+			"size",
+			"sidebar_label",
+			"space",
+			"whitespace",
+			"show whitespace",
+			"whitespace",
+			"side bar",
+			"past",
+			"crtl+v"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 54.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "postit-jas-forte.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
