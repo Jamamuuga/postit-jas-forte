@@ -17,9 +17,14 @@
 	[
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
-		"height": 332.0,
+		"height": 375.0,
+		"last_filter": "Package Control: ",
 		"selected_items":
 		[
 			[
@@ -47,13 +52,15 @@
 				"PackageResourceViewer: Open Resource"
 			]
 		],
-		"width": 579.0
+		"width": 516.0
 	},
 	"console":
 	{
 		"height": 279.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
 			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
 			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
 			"cd /home"
@@ -70,10 +77,33 @@
 	},
 	"expanded_folders":
 	[
-		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte"
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/app",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/app/controllers",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/app/models",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/app/models/concerns",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/app/views",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/app/views/posts",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/db",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/db/migrate"
 	],
 	"file_history":
 	[
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/app/models/user.rb",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/app/models/post.rb",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/db/migrate/20150518161931_create_posts.rb",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/db/migrate/20150518170701_create_users.rb",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/db/migrate/20150527035929_add_users_to_posts.rb",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/app/controllers/posts_controller.rb",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/Gemfile",
+		"/home/jason/.local/share/applications/chrome-knipolnnllmklapflnccelgolnpehhpl-Default.desktop",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/app/controllers/chrome-knipolnnllmklapflnccelgolnpehhpl-Default.desktop",
+		"/home/jason/.config/sublime-text-3/Packages/User/Ruby.sublime-build",
+		"/home/jason/.profile",
+		"/home/jason/.config/sublime-text-3/Packages/User/pants.txt",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/app/controllers/application_controller.rb",
+		"/home/jason/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/app/views/posts/index.html.erb",
 		"/home/jason/Dropbox/Documents/Projeto/myapp/app/models/group.rb",
 		"/home/jason/Dropbox/Documents/Projeto/myapp/app/models/user.rb",
 		"/home/jason/Dropbox/Documents/Projeto/myapp/db/migrate/20141010192223_create_groups.rb",
@@ -82,7 +112,6 @@
 		"/home/jason/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
 		"/home/jason/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
 		"/home/jason/.config/sublime-text-3/Packages/Theme - Soda SolarizedDark/Soda SolarizedDark.sublime-theme",
-		"/home/jason/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/jason/.config/sublime-text-3/Packages/Neon Color Scheme/Neon.tmTheme",
 		"/home/jason/.config/sublime-text-3/Packages/Theme - Soda/Soda Dark 3.sublime-theme",
 		"/home/jason/.config/sublime-text-3/Packages/User/Monokai Bright (SL).tmTheme",
@@ -138,7 +167,7 @@
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -187,7 +216,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 41.0
+		"height": 40.0
 	},
 	"input":
 	{
@@ -220,15 +249,17 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "postit-jas-forte.sublime-project",
 	"replace":
 	{
-		"height": 78.0
+		"height": 76.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -237,6 +268,7 @@
 	"select_project":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -245,6 +277,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
