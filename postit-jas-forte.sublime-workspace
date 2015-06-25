@@ -15,6 +15,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/models/comment.rb",
+			"settings":
+			{
+				"buffer_size": 129,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/post.rb",
+			"settings":
+			{
+				"buffer_size": 78,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 77,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20150518161931_create_posts.rb",
+			"settings":
+			{
+				"buffer_size": 174,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -90,9 +122,10 @@
 	"file_history":
 	[
 		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/app/models/user.rb",
-		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/app/models/post.rb",
 		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/db/migrate/20150518161931_create_posts.rb",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/db/migrate/20150604185834_create_comments.rb",
 		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/db/migrate/20150518170701_create_users.rb",
+		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/app/models/post.rb",
 		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/db/migrate/20150527035929_add_users_to_posts.rb",
 		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/app/controllers/posts_controller.rb",
 		"/home/jason/Dropbox/Documents/Projeto/postit-jas-forte/Gemfile",
@@ -209,8 +242,122 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/models/comment.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/models/post.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 78,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/models/user.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 77,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "db/migrate/20150518161931_create_posts.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
