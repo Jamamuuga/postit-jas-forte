@@ -1,8 +1,9 @@
 class AddTimestampsToRest < ActiveRecord::Migration
   def change
-    add_timestamps :categories, null: false
-    add_timestamps :comments, null: false
-    add_timestamps :posts, null: false
-    add_timestamps :users, null: false
+    # NOTE: null: false gives an error when adding timestamps to an existing table.
+    add_timestamps :categories, null: true
+    add_timestamps :comments, null: true
+    add_timestamps :posts, null: true
+    add_timestamps :users, null: true
   end
 end
