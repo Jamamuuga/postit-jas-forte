@@ -11,6 +11,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'bootstrap-sass', '~> 2.3.2.0'
 gem 'bootstrap-sass', '~> 3.3.5.0'
 gem 'autoprefixer-rails'
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
