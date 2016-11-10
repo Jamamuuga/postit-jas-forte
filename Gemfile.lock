@@ -40,25 +40,25 @@ GEM
     autoprefixer-rails (5.2.1.1)
       execjs
       json
-    bootstrap-sass (3.3.5.1)
-      autoprefixer-rails (>= 5.0.0.1)
-      sass (>= 3.3.0)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     builder (3.2.2)
     coderay (1.0.9)
-    coffee-rails (4.1.0)
+    coffee-rails (4.2.1)
       coffee-script (>= 2.2.0)
-      railties (>= 4.0.0, < 5.0)
+      railties (>= 4.0.0, < 5.2.x)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.9.1.1)
+    coffee-script-source (1.10.0)
     erubis (2.7.0)
     execjs (2.5.2)
     globalid (0.3.5)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
-    jbuilder (2.3.1)
-      activesupport (>= 3.0.0, < 5)
+    jbuilder (2.6.0)
+      activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
     jquery-rails (3.0.1)
       railties (>= 3.0, < 5.0)
@@ -71,8 +71,8 @@ GEM
     method_source (0.8.1)
     mime-types (2.6.1)
     mini_portile2 (2.1.0)
-    minitest (5.7.0)
-    multi_json (1.11.2)
+    minitest (5.9.1)
+    multi_json (1.12.1)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
@@ -145,15 +145,15 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (1.4.1)
-    turbolinks (1.2.0)
-      coffee-rails
+    turbolinks (5.0.1)
+      turbolinks-source (~> 5)
+    turbolinks-source (5.0.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     tzinfo-data (1.2016.5)
       tzinfo (>= 1.0.0)
-    uglifier (2.7.1)
-      execjs (>= 0.3.0)
-      json (>= 1.8.0)
+    uglifier (3.0.3)
+      execjs (>= 0.3.0, < 3)
 
 PLATFORMS
   ruby
@@ -161,21 +161,21 @@ PLATFORMS
 
 DEPENDENCIES
   autoprefixer-rails
-  bootstrap-sass (~> 3.3.5.0)
-  coffee-rails (~> 4.1.0)
-  jbuilder (~> 2.3)
+  bootstrap-sass (~> 3.3.7.0)
+  coffee-rails (~> 4.2)
+  jbuilder (>= 2.3.0)
   jquery-rails
   pg
   pry
   quiet_assets
-  rails (~> 4.2.0)
+  rails (~> 4.2)
   rails_12factor
-  sass-rails (~> 5.0.0)
+  sass-rails (~> 5)
   sdoc
   sqlite3
-  turbolinks
+  turbolinks (>= 5)
   tzinfo-data
-  uglifier (>= 2.7.0)
+  uglifier (>= 3)
 
 BUNDLED WITH
-   1.12.4
+   1.13.6
