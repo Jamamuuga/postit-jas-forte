@@ -1,1 +1,38 @@
-<h1>New Post<h1>
+<h4>New Post<h4><br>
+<% if @post.errors.any? %>
+	<div class='alert alert-error'>
+	<h5>There were some errors:</h5>
+	<ul>
+		<% @post.errors.full_messages.each do |msg| %>
+			<li><%= msg %></li>
+		<% end %>
+	</ul>
+	</div>
+<% end %>
+<%= form_for @post do |f| %>
+	<p>
+		<%= f.label :title %><br>
+		<%= f.text_field :title %>
+	</p>
+
+	<p>
+		<%= f.label :description %><br>
+		<%= f.text_field :description %>
+	</p>
+
+<!-- TODO: Add Categories -->
+
+	<p>
+		<%= f.label :user_id %><br>
+		<%= f.text_field :user_id %>
+	</p>
+
+	<p>
+		<%= f.label :url %><br>
+		<%= f.text_field :url %>
+	</p>
+
+	<p>
+		<%= f.submit "Create Post", class: 'btn-primary' %>
+	</p>
+<% end %>
