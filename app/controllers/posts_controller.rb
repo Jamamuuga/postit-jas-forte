@@ -22,4 +22,10 @@ class PostsController < ApplicationController
   def update
 
   end
+
+  private
+
+  def post_params
+    params.require(:post).permit!
+  end
 end
