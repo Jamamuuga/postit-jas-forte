@@ -18,7 +18,7 @@ class PostsController < ApplicationController
       flash[:notice] = "Your post was created"
       redirect_to posts_path
     else
-      render 'new'
+      render :new
     end
   end
 
