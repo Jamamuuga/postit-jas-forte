@@ -1,4 +1,5 @@
 <h4>Create a Post<h4><br>
+
 <% if @post.errors.any? %>
 	<div class='alert alert-error'>
 	<h5>There were some errors:</h5>
@@ -9,6 +10,7 @@
 	</ul>
 	</div>
 <% end %>
+
 <%= form_for @post do |f| %>
 	<p>
 		<%= f.label :title %><br>
