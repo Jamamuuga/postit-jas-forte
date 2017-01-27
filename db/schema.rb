@@ -1,3 +1,4 @@
+# encoding: UTF-8
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -12,13 +13,21 @@
 
 ActiveRecord::Schema.define(version: 20150720213142) do
 
-  create_table "categories", force: :cascade do |t|
-    t.string   "name"
+  create_table "ar_internal_metadata", primary_key: "key", force: true do |t|
+    t.string   "value",      limit: nil
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+  end
+
+  add_index "ar_internal_metadata", ["key"], name: "sqlite_autoindex_ar_internal_metadata_1", unique: true
+
+  create_table "categories", force: true do |t|
+    t.string   "name",       limit: nil
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "comments", force: :cascade do |t|
+  create_table "comments", force: true do |t|
     t.text     "body"
     t.integer  "post_id"
     t.integer  "user_id"
@@ -26,24 +35,24 @@ ActiveRecord::Schema.define(version: 20150720213142) do
     t.datetime "updated_at"
   end
 
-  create_table "post_categories", force: :cascade do |t|
+  create_table "post_categories", force: true do |t|
     t.integer  "post_id"
     t.integer  "category_id"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
 
-  create_table "posts", force: :cascade do |t|
-    t.string   "url"
-    t.string   "title"
+  create_table "posts", force: true do |t|
+    t.string   "url",         limit: nil
+    t.string   "title",       limit: nil
     t.text     "description"
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "users", force: :cascade do |t|
-    t.string   "username"
+  create_table "users", force: true do |t|
+    t.string   "username",   limit: nil
     t.datetime "created_at"
     t.datetime "updated_at"
   end
