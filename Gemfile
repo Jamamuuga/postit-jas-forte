@@ -41,6 +41,7 @@ group :doc do
 end
 
 group :development do
+	gem 'foreman'
   gem 'quiet_assets'
   gem 'pry'
   gem 'sqlite3'
