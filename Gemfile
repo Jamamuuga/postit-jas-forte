@@ -39,6 +39,9 @@ gem 'jbuilder', '~> 1.2'
 # gem 'jbuilder', '~> 2.3'
 # gem 'jbuilder', '>= 2.3.0'
 # gem 'jbuilder'
+# NOTE: json version shouldn't need to be specified here. Just being careful while modifying gem versions to fix partials not rendering bug.
+# gem 'json', '~> 1.8.0'
+gem 'json', '~> 1.8.2'
 
 group :doc do
   gem 'sdoc', require: false
@@ -48,7 +51,9 @@ group :development do
 	gem 'foreman'
   gem 'quiet_assets'
   gem 'pry'
-  gem 'sqlite3'
+#  gem 'sqlite3'
+# NOTE: sqlite3 version shouldn't need to be specified here. Just being careful while modifying gem versions to fix partials not rendering bug.
+  gem 'sqlite3', '~> 1.3.10'
 end
 
 group :production do
