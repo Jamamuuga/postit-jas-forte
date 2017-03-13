@@ -7,8 +7,9 @@ gem 'rails', '4.0.0'
 # gem 'rails', '~> 4.2.0'
 # gem 'rails', '~> 4.2'
 # gem 'rails', '~> 5.0.1'
-gem 'sass-rails', '~> 4.0.0'
-# gem 'sass-rails', '~> 4.0.5'
+# NOTE: bootstrap-sass 2.3.x needs extra sub version levels of stuff in order to autoselect scss loader correctly
+# gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 4.0.5'
 # gem 'sass-rails', '~> 4'
 # gem 'sass-rails', '~> 5.0.0'
 # gem 'sass-rails', '~> 5'
@@ -25,8 +26,10 @@ gem 'bootstrap-sass', '~> 2.3.2.2'
 # gem 'bootstrap-sass', '~> 3.3.7.0'
 # gem 'bootstrap-sass', '~> 3'
 # gem 'bootstrap-sass', '>= 3'
-# NOTE: bootstrap-sass 2.3.x needs latest sass 3.2.x in order to autoselect scss loader correctly
+# NOTE: bootstrap-sass 2.3.x needs extra sub version levels of stuff in order to autoselect scss loader correctly
+### Begin bootstrap-sass 2.3.x requirement fix holders
 gem 'sass', '~> 3.2.19'
+### End bootstrap-sass 2.3.x requirement fix holders
 gem 'autoprefixer-rails'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
