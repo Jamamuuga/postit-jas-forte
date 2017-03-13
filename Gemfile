@@ -25,6 +25,8 @@ gem 'bootstrap-sass', '~> 2.3.2.2'
 # gem 'bootstrap-sass', '~> 3.3.7.0'
 # gem 'bootstrap-sass', '~> 3'
 # gem 'bootstrap-sass', '>= 3'
+# NOTE: bootstrap-sass 2.3.x needs latest sass 3.2.x in order to autoselect scss loader correctly
+gem 'sass', '~> 3.2.19'
 gem 'autoprefixer-rails'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
